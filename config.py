@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "21748181"))
 API_HASH = os.environ.get("API_HASH", "b1d962414e186e0778911f3183feac33")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001977520805"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002124189064"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1980321098"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5906464451"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Linkbot:pass@cluster0.0ca
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001691735001"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
