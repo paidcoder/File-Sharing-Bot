@@ -124,7 +124,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = f"https://t.me/Crunchyroll_Anime_Channel"),
+                url = f"https://t.me/Anime_Raven"),
             InlineKeyboardButton(
                 "Join Channel 2",
                 url = client.invitelink)
